@@ -53,7 +53,12 @@ The following steps need to be completed in order unless they have been complete
           <div class="accordion-body">  
             You don’t need an access token if you intend to create SSH key credentials, but you will need it for the Tower Agent credentials. 
             <ul>
-            <li>The user can create an access token as <a href="https://docs.seqera.io/platform/latest/api/overview/?h=access+token#authentication"> described here</a>.</li>
+            <li>Navigate to the <code>User Tokens</code> from the user menu on the top-right corner:
+            <br/>
+                <div style="text-align:center"><img width="25%" src="../assets/doc_img/token.png"/></div>
+                <br/>
+            </li>
+            <li>Click <code>Add Token</code> and give the token a name.</li>
             <li>Keep it safe, create a new one if you lose it and delete lost tokens.</li>
             <li>Use descriptive names.</li>
             <li>Don’t share your token with others.</li>
@@ -88,7 +93,7 @@ The following steps need to be completed in order unless they have been complete
                     <ol>
                         <li>Keep the Agent interface open.</li>
                         <li>Log in to infrastructure (the HPC).</li>
-                        <li>In theory, you can run the Agent from anywhere on the HPC. See our [best practices](/user-guide/hpc-recommendations) for some recommendations.</li>
+                        <li>In theory, you can run the Agent from anywhere on the HPC. See our <a href="/user-guide/hpc-recommendations">best practices</a> for some recommendations.</li>
                         <li>Copy the usage script from the Agent interface to any text editor and edit the access token to provide your own token created above and provide the path to the work directory for the Agent.</li>
                         <li>The work directory for the Agent (provided as a parameter in the command) must exist before running the Agent.</li>
                         <li>Run the edited script relevant to your infrastructure (PBS or SLURM) bash.</li>
