@@ -1,24 +1,51 @@
 title: User Guide
 title_url: /user-guide/
 subitems:
-  - title: User guide contents
+  - title: Start here
     subitems:
-      - title: Accessing the service
+      - title: User guide overview
+        url: /user-guide/
+      - title: Understand the service
+        url: /user-guide/service-overview
+      - title: Choose the right guide
+        url: /user-guide/choose-your-path
+  - title: Access and accounts
+    subitems:
+      - title: Access the service
         url: /user-guide/service-access
-      - title: Logging in
-        url: /user-guide/loggin
-      - title: Configure and use compute environments
-        url: /user-guide/compute-env
-      - title: Adding workflows
+      - title: Log in and switch workspaces
+        url: /user-guide/log-in
+      - title: Manage workspace participants
+        url: /user-guide/manage-participants
+  - title: Run workflows
+    subitems:
+      - title: Run your first workflow
+        url: /user-guide/run-first-workflow
+      - title: Add a workflow
         url: /user-guide/add-workflow
-      - title: Recommendations
+      - title: Monitor runs and find outputs
+        url: /user-guide/monitor-runs
+  - title: Workspace administration
+    subitems:
+      - title: Workspace administrator overview
+        url: /user-guide/workspace-administration
+      - title: Configure compute environments
+        url: /user-guide/compute-env
+      - title: HPC and Tower Agent guidance
+        url: /user-guide/hpc-agent
+      - title: Cloud and other infrastructures
+        url: /user-guide/cloud-compute
+  - title: Best practices and support
+    subitems:
+      - title: Recommendations and best practice
         url: /user-guide/hpc-recommendations
+      - title: Troubleshooting
+        url: /user-guide/troubleshooting
+      - title: Get support
+        url: /user-guide/support
   - title: Contact us
     url: /main/contact-us
   - title: Contributors
     url: /main/contributors
   - title: Back to Home
     url: /
-  
-
-  
